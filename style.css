@@ -1,0 +1,56 @@
+:root {
+  font-family: sans-serif;
+  color: white;
+  background: #121212;
+  font-size: 30px;
+}
+
+body {
+  margin: 30;
+}
+
+input {
+  background-color: rgb(39, 51, 165);
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(39, 51, 165);
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block;
+  font: 30px;
+  transition: 600ms ease;
+}
+
+.button:hover {
+  background-color: rgb(26, 35, 112);
+}
+
+.output {
+  background-color: rgb(26, 35, 112);
+  transition: 200ms ease-in-out;
+  display: inline-block;
+  padding: 4px 8px;
+  border: solid 2px white;
+}
+
+.output:hover {
+  background-color: rgb(54, 71, 226);
+}
+
+.form {
+  text-align: center;
+}
+.header {
+  color: lightgray;
+  font-size: 11px;
+  transform: translate(100);
+}
